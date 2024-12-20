@@ -6,7 +6,7 @@ import image5 from '../assets/images/5.png';
  
  export default function Hero(){
     return(
-        <section id="Hero" className="relative flex items-center  gap-16 px-8 bg-gradient-to-b from-white to-[#91A3AF] min-h-[calc(100vh-4.5rem)]">
+        <section id="Hero" className="relative flex items-center  gap-16 pl-10 bg-gradient-to-b from-white to-[#91A3AF] min-h-[calc(100vh-4.5rem)]">
         {/* The hero has two sections, the text and images section */}
         {/* Text section */}
         <div className='-mt-16'>
