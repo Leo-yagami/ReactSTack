@@ -27,7 +27,7 @@ export default function Corousel({children: images}){
     const next = () => setCurr((curr) => curr == images[0].length - 1 ? 0: curr + 1); 
     return (
         // FUll body of carousel 
-        <div className="bg-[#032D46] py-24 text-white px-72">
+        <div className="bg-[#032D46] py-24 text-white px-56">
             <div className="overflow-hidden mx-32 relative">
                 <div className='flex transition-all duration-300 ease-out' style={{transform: `translateX(-${curr *100}%)`}}>
                     {images[0]}
@@ -54,7 +54,7 @@ export default function Corousel({children: images}){
                     ))}
                 </div>
             </div> */}
-            <div className=' bg-[#0F334B] rounded-2xl border-[#1F435B] border-2 mt-6 py-5 mx-32'>
+            <div className=' bg-[#0F334B] rounded-2xl border-[#1F435B] border-2 mt-6 py-5 px-6 mx-32'>
                 <div className='flex items-center justify-center gap-14'>
                     {navImgs.map((img, i) => (
                         <div
