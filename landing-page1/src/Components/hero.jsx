@@ -6,7 +6,7 @@ import image5 from '../assets/images/5.png';
  
  export default function Hero(){
     return(
-        <section id="Hero" className="relative flex items-center  gap-16 pl-10 bg-gradient-to-b from-white to-[#91A3AF] min-h-[calc(100vh-4.5rem)]">
+        <section id="Hero" className="relative flex items-center pl-8 bg-gradient-to-b from-white to-[#91A3AF] min-h-[calc(100vh-4.5rem)]">
         {/* The hero has two sections, the text and images section */}
         {/* Text section */}
         <div className='-mt-16'>
@@ -20,7 +20,7 @@ import image5 from '../assets/images/5.png';
             </div>
         </div>
         {/* Hard Part: Images Section */}
-        <div className='relative h-[700px] w-[1000px] mt-16'>
+        <div className='relative h-[700px] w-[1000px] mt-16 -mx-12'>
             <div>
                 <img src={image1} alt="" className='absolute w-[250px] h-[250px] z-20 top-[2rem] left-[10rem] hover:-translate-y-2 duration-300'/>
             </div>

@@ -123,7 +123,7 @@ const data = [
   
   return (
     <>
-      <div className=''>
+      <div className='overflow-x-hidden'>
         <Nav/>
         <Hero />
         <div className='w-full h-12 bg-gradient-to-b from-[#97A4AF] to-[#11364D]'></div>
