@@ -6,12 +6,12 @@ import image5 from '../assets/images/5.png';
  
  export default function Hero(){
     return(
-        <section id="Hero" className="relative flex items-center  gap-16 px-8 bg-gradient-to-b from-white to-[#FEEBDE] min-h-[calc(100vh-4.5rem)]">
+        <section id="Hero" className="relative flex items-center  gap-16 px-8 bg-gradient-to-b from-white to-[#91A3AF] min-h-[calc(100vh-4.5rem)]">
         {/* The hero has two sections, the text and images section */}
         {/* Text section */}
         <div className='-mt-16'>
-            <h1 className="text-8xl text-[#000000] font-serif font-bold">Shaping Futures.</h1>
-            <h1 className="text-8xl mt-4 text-[#F86709] font-serif font-bold">Building Trades<span className="text-[#000000]">.</span></h1>
+            <h1 className="text-8xl text-[#000000] font-Arvo font-bold">Shaping Futures.</h1>
+            <h1 className="text-8xl mt-4 text-[#F86709] font-Arvo font-bold">Building Trades<span className="text-[#000000]">.</span></h1>
             <p className="text-3xl max-w-4xl mt-6 ">Empowering the Future of Trades: Connect, Learn, and Build with <span className="text-[#F86709]">U</span>TRADIE - Where Opportunities Meet Skilled Hands</p>
             {/* Button group */}
             <div className="mt-8 flex gap-6 text-white">

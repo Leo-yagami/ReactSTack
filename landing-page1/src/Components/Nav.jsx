@@ -13,7 +13,7 @@ export default function Nav(){
                     {/* Logo */}
                     <div className="mr-12">
                         {/* Insert logo here */}
-                        <h1 className="font-serif font-extrabold rounded-lg px-1 py-1.5 hover:text-white text-bge text-2xl"><span className="text-[#F86709]">U</span>TRADIE</h1>
+                        <h1 className="font-Arvo font-extrabold rounded-lg px-1 py-1.5 hover:text-white text-bge text-2xl"><span className="text-[#F86709]">U</span>TRADIE</h1>
                     </div>
                     {/* Divider line */}
                     <div className="bg-white w-0.5 h-full"></div>
