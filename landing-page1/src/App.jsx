@@ -4,6 +4,7 @@
 import Nav from './Components/Nav.jsx'
 import Hero from './Components/hero.jsx'
 import React from 'react'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 // Importing Carousel
 import Carousel  from './Carousel'
@@ -215,16 +216,72 @@ const data = [
   ]  
 
 
-
+    // return (
+    //   <Router>
+    //     <div className='overflow-x-hidden'>
+    //       <Nav />
+    //       <Routes>
+    //         <Route path="/" element={
+    //           <>
+    //             <Hero />
+    //             <div className='w-full h-12 bg-gradient-to-b from-[#97A4AF] to-[#11364D]'></div>
+    //             <Carousel>
+    //               {data.map((dataSet, index) => (
+    //                 <div key={index} className='bg-[#0F334B] w-fit flex-shrink-0 rounded-2xl border-[#1F435B] border-2 py-8'>
+    //                   <img src={dataSet.icon} alt={dataSet.Title} className="w-32 h-32 mx-auto mb-8" />
+    //                   <h2 className='text-white text-4xl font-bold mb-8 text-center'>{dataSet.Title}</h2>
+    //                   <img src={divider} className='w-[67%] h-1 mx-auto mb-16' alt="" />
+    //                   <p className='text-3xl mt-12 px-8 text-center mx-auto tracking-wide text-white' dangerouslySetInnerHTML={{__html: dataSet.text}}></p>
+    //                 </div>
+    //               ))}
+    //               {navIcons.map((icon, index) => (
+    //                 <img key={index} src={icon} alt={`Nav Icon ${index}`} className="w-16 h-16" />
+    //               ))}
+    //             </Carousel>
+    //             <div className='w-full h-12 bg-gradient-to-b from-[#11364D] to-white'></div>
+    //             {/* Pricing cards */}
+    //             <div className='flex justify-center text-white text-center bg-[#FFFFFF] flex-wrap gap-2 mt-40 mb-20'>
+    //               {/* ... (your pricing cards JSX) */}
+    //             </div>
+    //           </>
+    //         } />
+    //         <Route path="/growth-learning" element={<h1>Growth & Learning</h1>} />
+    //         <Route path="/growth-learning/create" element={<h1>Create</h1>} />
+    //         <Route path="/growth-learning/learn" element={<h1>Learn</h1>} />
+    //         <Route path="/growth-learning/goals" element={<h1>Goals</h1>} />
+    //         <Route path="/communication-social" element={<h1>Communication & Social</h1>} />
+    //         <Route path="/communication-social/message" element={<h1>Message</h1>} />
+    //         <Route path="/communication-social/connection" element={<h1>Connection</h1>} />
+    //         <Route path="/communication-social/events" element={<h1>Events</h1>} />
+    //         <Route path="/communication-social/competitions" element={<h1>Competitions</h1>} />
+    //         <Route path="/opportunities" element={<h1>Opportunities</h1>} />
+    //         <Route path="/opportunities/jobs" element={<h1>Jobs</h1>} />
+    //         <Route path="/opportunities/marketplace" element={<h1>Market Place</h1>} />
+    //         <Route path="/opportunities/affiliate" element={<h1>Affiliate</h1>} />
+    //         <Route path="/account-settings" element={<h1>Account & Setting</h1>} />
+    //         <Route path="/account-settings/message" element={<h1>Message</h1>} />
+    //         <Route path="/account-settings/connection" element={<h1>Connection</h1>} />
+    //         <Route path="/account-settings/events" element={<h1>Events</h1>} />
+    //         <Route path="/account-settings/competitions" element={<h1>Competitions</h1>} />
+    //       </Routes>
+    //     </div>
+    //   </Router>
+    // )
 
   
   return (
-    <>
+    <Router>
+    {/* Routes for the react router */}
+
       <div className='overflow-x-hidden'>
-        <Nav/>
-        <Hero />
-        <div className='w-full h-12 bg-gradient-to-b from-[#97A4AF] to-[#11364D]'></div>
-        <Carousel>
+      <Nav />
+      <Routes>
+        {/* Root route */}
+        <Route path="/" element={
+          <>
+             <Hero />
+             <div className='w-full h-12 bg-gradient-to-b from-[#97A4AF] to-[#11364D]'></div>
+             <Carousel>
               {[data.map(dataSet => {
                 return(
                   <div className='bg-[#0F334B] w-fit flex-shrink-0 rounded-2xl border-[#1F435B] border-2 py-8'>
@@ -239,16 +296,16 @@ const data = [
                       <h1 id="dynamic-title" className='text-[#F6670B] text-8xl font-bold font-Arvo text-bold'>{dataSet.Title}
                       </h1>
                       <img id="dynamic-divider" src={divider} className=' h-1' alt="" />
-                    </div> */}
+                      </div> */}
                     {/* <div className='mt-8 max-w-fit flex flex-col items-center justify-center mx-auto'>
                     <h1 className='text-[#F6670B] text-8xl font-bold font-Arvo text-center flex-grow-0'>
-                      {dataSet.Title}
-                      </h1>
-                      <img
-                        src={divider}
-                        className='w-[35%] h-1 mt-4 mx-auto flex-grow-0'
-                        alt=""
-                      />
+                    {dataSet.Title}
+                    </h1>
+                    <img
+                    src={divider}
+                    className='w-[35%] h-1 mt-4 mx-auto flex-grow-0'
+                    alt=""
+                    />
                     </div> */}
                     <div className='mt-8 max-w-fit flex flex-col items-center justify-center mx-auto'>
                       <h1 className='relative text-[#F6670B] text-8xl font-bold font-Arvo text-center flex-grow-0 whitespace-nowrap'>
@@ -258,7 +315,7 @@ const data = [
                         src={divider}
                         className='w-[50%] h-1 mt-4 mx-auto flex-grow-0'
                         alt=""
-                      />
+                        />
                     </div>
 
 
@@ -266,8 +323,8 @@ const data = [
                   </div>
                 )
               }),
-                navIcons    
-              ]}  
+              navIcons    
+            ]}  
          </Carousel> 
          <div className='w-full h-12 bg-gradient-to-b from-[#11364D] to-white'></div>
       {/* Cards wrapper */}
@@ -344,8 +401,33 @@ const data = [
           </div>
         </div>
       </div>
-      </div>
-    </>
+
+          </>
+        } />
+        <Route path="/growth-learning" element={<h1>Growth & Learning</h1>} />
+        <Route path="/growth-learning/create" element={<h1 className='mt-32 text-7xl'>Create</h1>} />
+        <Route path="/growth-learning/learn" element={<h1 className='mt-32 text-7xl'>Learn</h1>} />
+        <Route path="/growth-learning/goals" element={<h1 className='mt-32 text-7xl'>Goals</h1>} />
+        
+        <Route path="/communication-social" element={<h1 className='mt-32 text-7xl'>Communication & Social</h1>} />
+        <Route path="/communication-social/message" element={<h1 className='mt-32 text-7xl'>Message</h1>} />
+        <Route path="/communication-social/connection" element={<h1 className='mt-32 text-7xl'>Connection</h1>} />
+        <Route path="/communication-social/events" element={<h1 className='mt-32 text-7xl'>Events</h1>} />
+        <Route path="/communication-social/competitions" element={<h1 className='mt-32 text-7xl'>Competitions</h1>} />
+        
+        <Route path="/opportunities" element={<h1 className='mt-32 text-7xl'>Opportunities</h1>} />
+        <Route path="/opportunities/jobs" element={<h1 className='mt-32 text-7xl'>Jobs</h1>} />
+        <Route path="/opportunities/marketplace" element={<h1 className='mt-32 text-7xl'>Market Place</h1>} />
+        <Route path="/opportunities/affiliate" element={<h1 className='mt-32 text-7xl'>Affiliate</h1>} />
+        
+        <Route path="/account-settings" element={<h1 className='mt-32 text-7xl'>Account & Setting</h1>} />
+        <Route path="/account-settings/message" element={<h1 className='mt-32 text-7xl'>Message</h1>} />
+        <Route path="/account-settings/connection" element={<h1 className='mt-32 text-7xl'>Connection</h1>} />
+        <Route path="/account-settings/events" element={<h1 className='mt-32 text-7xl'>Events</h1>} />
+        <Route path="/account-settings/competitions" element={<h1 className='mt-32 text-7xl'>Competitions</h1>} />
+      </Routes>
+        </div>
+      </Router>
   )
 }
 
