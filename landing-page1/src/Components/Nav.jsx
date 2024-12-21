@@ -238,7 +238,7 @@ export default function Nav() {
               to="/account-settings"
               className="rounded-full group-hover:bg-[white] group-hover:text-[#032C47] px-5 py-2"
             >
-              Account & Setting
+              Account & Settings
               <span className="inline-block ml-2 group-hover:rotate-180 group-hover:translate-y-0.5 duration-300">&#x25BC;</span>
             </Link>
             <div className="absolute z-30 hidden left-2 mt-2 space-y-2 bg-white shadow-lg group-hover:block w-48 rounded-lg p-4">

@@ -187,7 +187,7 @@ const data = [
       icon: navImgsRE[5],
       Title: "COMPETITIONS",
       divider: {divider},
-      text: `<span style="color: #F7670B">U</span>TRADIE Competitionsn makes upskilling a <span style="color: #F7670B">race</span>. Compete with others, push your limits, and see how far you can go. Don't get left <span style="color: #F7670B">behind</span>-join the <span style="color: #F7670B">race</span>, stay <span style="color: #F7670B">ahead</span>, and integrate with <span style="color: #F7670B">U</span>TRADIE Leaderboards for even more ways to see where you <span style="color: #F7670B">stand</span>.`
+      text: `<span style="color: #F7670B">U</span>TRADIE Competitions makes upskilling a <span style="color: #F7670B">race</span>. Compete with others, push your limits, and see how far you can go. Don't get left <span style="color: #F7670B">behind</span>-join the <span style="color: #F7670B">race</span>, stay <span style="color: #F7670B">ahead</span>, and integrate with <span style="color: #F7670B">U</span>TRADIE Leaderboards for even more ways to see where you <span style="color: #F7670B">stand</span>.`
     },
     {
       icon: navImgsRE[6],
@@ -199,13 +199,13 @@ const data = [
       icon: navImgsRE[7],
       Title: "PASSPORT",
       divider: {divider},
-      text: `<span style="color: #F7670B">U</span>TRADIE Passport puts your <span style="color: #F7670B">career</span> in your <span style="color: #F7670B">pocket</span>. Store your <span style="color: #F7670B">skills</span>, <span style="color: #F7670B">achievements</span>, and <span style="color: #F7670B">certifications</span> in <span style="color: #F7670B">one place</span>. So you're always <span style="color: #F7670B">ready</span> to show your values to <span style="color: #F7670B">clients</span> or <span style="color: #F7670B">employers</span>. If you're not keeping track, you're missing the change to <span style="color: #F7670B">stand out</span>.`
+      text: `<span style="color: #F7670B">U</span>TRADIE Passport puts your <span style="color: #F7670B">career</span> in your <span style="color: #F7670B">pocket</span>. Store your <span style="color: #F7670B">skills</span>, <span style="color: #F7670B">achievements</span>, and <span style="color: #F7670B">certifications</span> in <span style="color: #F7670B">one place</span>. So you're always <span style="color: #F7670B">ready</span> to show your value to <span style="color: #F7670B">clients</span> or <span style="color: #F7670B">employers</span>. If you're not keeping track, you're missing the change to <span style="color: #F7670B">stand out</span>.`
     },
     {
       icon: navImgsRE[8],
       Title: "EVENTS",
       divider: {divider},
-      text: `<span style="color: #F7670B">U</span>TRADIE Events keeps you <span style="color: #F7670B">connected</span> to the latest <span style="color: #F7670B">trade-related happenings</span>. Browse upcoming <span style="color: #F7670B">workshops</span>, <span style="color: #F7670B">conferences</span>, and more and easily <span style="color: #F7670B">RSVP</span> to those that <span style="color: #F7670B">align</span> with your <span style="color: #F7670B">career goals</span>. These events help you <span style="color: #F7670B">grow</span>, so it's best to <span style="color: #F7670B">stay in the loop</span>.`
+      text: `<span style="color: #F7670B">U</span>TRADIE Events keeps you <span style="color: #F7670B">connected</span> to the latest <span style="color: #F7670B">trade-related happenings</span>. Browse upcoming <span style="color: #F7670B">workshops</span>, <span style="color: #F7670B">conferences</span>, and easily <span style="color: #F7670B">RSVP</span> to those that <span style="color: #F7670B">align</span> with your <span style="color: #F7670B">career goals</span>. These events help you <span style="color: #F7670B">grow</span>, so it's best to <span style="color: #F7670B">stay in the loop</span>.`
     },
     {
       icon: navImgsRE[9],
@@ -217,7 +217,7 @@ const data = [
       icon: navImgsRE[10],
       Title: "GOALS",
       divider: {divider},
-      text: `<span style="color: #F7670B">U</span>TRADIE Goals help you set <span style="color: #F7670B">clear targets</span> and track your <span style="color: #F7670B">progress</span> every <span style="color: #F7670B">step of the way</span>. Update your <span style="color: #F7670B">gaols</span> as you go, stay <span style="color: #F7670B">focused</span>, and see your career growth in <span style="color: #F7670B">real time</span>. Without <span style="color: #F7670B">goals</span>, you're just <span style="color: #F7670B">drifting</span>-so make sure you're <span style="color: #F7670B">staying on track</span>.` 
+      text: `<span style="color: #F7670B">U</span>TRADIE Goals help you set <span style="color: #F7670B">clear targets</span> and track your <span style="color: #F7670B">progress</span> every <span style="color: #F7670B">step of the way</span>. Update your <span style="color: #F7670B">goals</span> as you go, stay <span style="color: #F7670B">focused</span>, and see your career growth in <span style="color: #F7670B">real time</span>. Without <span style="color: #F7670B">goals</span>, you're just <span style="color: #F7670B">drifting</span>-so make sure you're <span style="color: #F7670B">staying on track</span>.` 
     },
     {
       icon: navImgsRE[11],
@@ -386,7 +386,7 @@ const data = [
           <div className='bg-[#03243B] max-w-[26rem] px-10 pt-12 pb-8 m-2.5 rounded-xl min-h-[920px] flex flex-col'>
             <h3 className='font-Arvo font-bold text-5xl uppercase mb-10'>Business</h3>
             <img src={divider} className='w-[67%] h-1 mx-auto mb-16' alt="" />
-            <p className='text-center text-3xl mb-8'>Trade Businesses, Content Creators, Paid Mentors, Trade Brands/Sponsers.</p>
+            <p className='text-center text-3xl mb-8'>Trade Businesses, Content Creators, Paid Mentors, Trade Brands/Sponsors.</p>
             <ul className='text-2xl text-left pl-8' style={{listStyle: "circle"}}>
               <li>My Dashboard</li>
               <li>Profile</li>
@@ -398,7 +398,7 @@ const data = [
               <li>Jobs</li>
               <li>Events</li>
               <li>Goals</li>
-              <li>Affliate</li>
+              <li>Affiliate</li>
               <li>Control Panel (Manage your user's features)</li>
             </ul>
             <a href="#" className='text-2xl mt-auto text-[#03243B] px-8 py-5 bg-white hover:bg-[#F6670B] hover:text-white duration-300 rounded-2xl'>Create Account</a>
