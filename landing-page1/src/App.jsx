@@ -334,7 +334,7 @@ const data = [
                     </div>
 
 
-                    <p className='text-3xl mt-12 px-8 text-center mx-auto tracking-wide' dangerouslySetInnerHTML={{__html: dataSet.text}}></p>
+                    <p className='text-3xl mt-12 px-12 text-center mx-auto tracking-wide' dangerouslySetInnerHTML={{__html: dataSet.text}}></p>
                   </div>
                 )
               }),
