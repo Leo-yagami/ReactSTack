@@ -198,7 +198,7 @@ const navImgsRE =[
                     {navImgsRE.map((img, i) => (
                         <div
                             key={i}
-                            className={`transition-all duration-300 p-2 flex items-center justify-center rounded-full ${
+                            className={`duration-200 ease-linear p-2 flex items-center justify-center rounded-full ${
                                 i === curr ? "bg-[#F6670B]" : "bg-transparent"
                             }
                             
@@ -206,7 +206,7 @@ const navImgsRE =[
                             style={{ aspectRatio: "1 / 1" }} // Ensures a perfect circle
                         >
                             {React.cloneElement(img, {
-                                className: i === curr? 'fill-white h-8 w-8' : 'fill-gray-500 h-6 w-6 '
+                                className: i === curr? 'fill-white h-6 w-6 duration-300' : 'fill-gray-500 h-6 w-6 duration-300'
                             })}
                         </div>
                     ))}
