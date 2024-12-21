@@ -346,7 +346,7 @@ const data = [
       <div className='flex justify-center text-white text-center bg-[#FFFFFF] flex-wrap gap-2 mt-40 mb-20'>
         {/* Pricing card */}
         <div className='hover:bg-[#F6670B] duration-500 rounded-3xl'>
-          <div className='bg-[#03243B] max-w-[26rem] max-h-fit px-10 pt-12 pb-8 rounded-xl min-h-[920px] flex flex-col m-3'>
+          <div className='bg-[#03243B] max-w-[26rem] max-h-fit px-10 pt-12 pb-8 m-2.5 rounded-xl min-h-[920px] flex flex-col '>
             <h3 className='font-Arvo font-bold text-5xl uppercase mb-10'>Lite</h3>
             <img src={divider} className='w-[67%] h-1 mx-auto mb-16' alt="" />
             <p className='text-center text-3xl mb-8'>School Students, Apprentices, Job Seekers, Parents.</p>
@@ -363,7 +363,7 @@ const data = [
           </div>
         </div>
         <div className='hover:bg-[#F6670B] duration-500 rounded-3xl'>
-          <div className='bg-[#03243B] max-w-[26rem] px-10 pt-12 pb-8 m-3 rounded-xl min-h-[920px] flex flex-col'>
+          <div className='bg-[#03243B] max-w-[26rem] px-10 pt-12 pb-8 m-2.5 rounded-xl min-h-[920px] flex flex-col'>
             <h3 className='font-Arvo font-bold text-5xl uppercase mb-10'>Personal</h3>
             <img src={divider} className='w-[67%] h-1 mx-auto mb-16' alt="" />
             <p className='text-center text-3xl mb-8'>Trades Workers, Tradies, Managers, Business Owners, Support People.</p>
@@ -383,7 +383,7 @@ const data = [
           </div>
         </div>
         <div className='hover:bg-[#F6670B] duration-500 rounded-3xl'>
-          <div className='bg-[#03243B] max-w-[26rem] px-10 pt-12 pb-8 m-3 rounded-xl min-h-[920px] flex flex-col'>
+          <div className='bg-[#03243B] max-w-[26rem] px-10 pt-12 pb-8 m-2.5 rounded-xl min-h-[920px] flex flex-col'>
             <h3 className='font-Arvo font-bold text-5xl uppercase mb-10'>Business</h3>
             <img src={divider} className='w-[67%] h-1 mx-auto mb-16' alt="" />
             <p className='text-center text-3xl mb-8'>Trade Businesses, Content Creators, Paid Mentors, Trade Brands/Sponsers.</p>
@@ -405,7 +405,7 @@ const data = [
           </div>
         </div>
         <div className='hover:bg-[#F6670B] duration-500 rounded-3xl'>
-          <div className='bg-[#03243B] max-w-[26rem] px-10 pt-12 pb-8 m-3 rounded-xl min-h-[920px] flex flex-col'>
+          <div className='bg-[#03243B] max-w-[26rem] px-10 pt-12 pb-8 m-2.5 rounded-xl min-h-[920px] flex flex-col'>
             <h3 className='font-Arvo font-bold text-5xl uppercase mb-10 '>NON-FOR-PROFIT</h3>
             <img src={divider} className='w-[67%] h-1 mx-auto mb-16' alt="" />
             <p className='text-center text-3xl mb-8'>Job Service Organizations, Industry Associations, Apprenticeship Organizations.</p>

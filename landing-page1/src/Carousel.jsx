@@ -193,7 +193,7 @@ const navImgsRE =[
                     ))}
                 </div>
             </div> */}
-            <div className=' bg-[#0F334B] rounded-2xl border-[#1F435B] border-2 mt-6 py-5 px-6 mx-32'>
+            <div className=' bg-[#0F334B] rounded-2xl border-[#1F435B] border-2 mt-12 py-5 px-6 mx-32'>
                 <div className='flex items-center justify-center gap-14'>
                     {navImgsRE.map((img, i) => (
                         <div
