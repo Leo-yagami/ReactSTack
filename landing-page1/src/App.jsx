@@ -346,11 +346,11 @@ const data = [
       <div className='flex justify-center text-white text-center bg-[#FFFFFF] flex-wrap gap-2 mt-40 mb-20'>
         {/* Pricing card */}
         <div className='hover:bg-[#F6670B] duration-500 rounded-3xl'>
-          <div className='bg-[#03243B] max-w-[26rem] max-h-fit px-10 pt-12 pb-8 m-2.5 rounded-xl min-h-[920px] flex flex-col '>
-            <h3 className='font-Arvo font-bold text-5xl uppercase mb-10'>Lite</h3>
-            <img src={divider} className='w-[67%] h-1 mx-auto mb-16' alt="" />
-            <p className='text-center text-3xl mb-8'>School Students, Apprentices, Job Seekers, Parents.</p>
-            <ul className='text-2xl text-left pl-8' style={{listStyle: "circle"}}>
+          <div className='bg-[#03243B] max-w-[26rem] max-h-fit px-10 pt-12 pb-8 m-2.5 rounded-xl min-h-[780px] flex flex-col '>
+            <h3 className="relative font-Arvo font-bold text-4xl uppercase mb-10 text-left after:content-[''] after:w-full after:h-0.5 after:bg-white after:absolute after:-bottom-6 after:left-0">Lite</h3>
+            {/* <img src={divider} className='w-[67%] h-1 mx-auto mb-16' alt="" /> */}
+            <p className='text-left text-2xl mb-8 mt-5'>School Students, Apprentices, Job Seekers, Parents.</p>
+            <ul className='text-xl text-left pl-8' style={{listStyle: "circle"}}>
               <li>My Dashboard</li>
               <li>Passport</li>
               <li>Messages</li>
@@ -359,15 +359,15 @@ const data = [
               <li>Events</li>
               <li>Goals</li>
             </ul>
-            <a href="#" className='text-2xl mt-auto text-[#03243B] px-8 py-5 bg-white hover:bg-[#F6670B] hover:text-white duration-300 rounded-2xl flex-none'>Create Account</a>
+            <a href="#" className='text-2xl mt-auto text-[#03243B] px-5 py-4 bg-white hover:bg-[#F6670B] hover:text-white duration-300 rounded-2xl flex-none'>Create Account</a>
           </div>
         </div>
         <div className='hover:bg-[#F6670B] duration-500 rounded-3xl'>
-          <div className='bg-[#03243B] max-w-[26rem] px-10 pt-12 pb-8 m-2.5 rounded-xl min-h-[920px] flex flex-col'>
-            <h3 className='font-Arvo font-bold text-5xl uppercase mb-10'>Personal</h3>
-            <img src={divider} className='w-[67%] h-1 mx-auto mb-16' alt="" />
-            <p className='text-center text-3xl mb-8'>Trades Workers, Tradies, Managers, Business Owners, Support People.</p>
-            <ul className='text-2xl text-left pl-8' style={{listStyle: "circle"}}>
+          <div className='bg-[#03243B] max-w-[26rem] px-10 pt-12 pb-8 m-2.5 rounded-xl min-h-[780px] flex flex-col'>
+            <h3 className="relative font-Arvo font-bold text-4xl uppercase mb-10 text-left after:content-[''] after:w-full after:h-0.5 after:bg-white after:absolute after:-bottom-6 after:left-0">Personal</h3>
+            {/* <img src={divider} className='w-[67%] h-1 mx-auto mb-16' alt="" /> */}
+            <p className='text-left text-2xl mb-8 mt-5'>Trades Workers, Tradies, Managers, Business Owners, Support People.</p>
+            <ul className='text-xl text-left pl-8' style={{listStyle: "circle"}}>
               <li>My Dashboard</li>
               <li>Passport</li>
               <li>Messages</li>
@@ -379,15 +379,15 @@ const data = [
               <li>Events</li>
               <li>Goals</li>
             </ul>
-            <a href="#" className='text-2xl mt-auto text-[#03243B] px-8 py-5 bg-white hover:bg-[#F6670B] hover:text-white duration-300 rounded-2xl'>Create Account</a>
+            <a href="#" className='text-2xl mt-auto text-[#03243B] px-5 py-4 bg-white hover:bg-[#F6670B] hover:text-white duration-300 rounded-2xl'>Create Account</a>
           </div>
         </div>
         <div className='hover:bg-[#F6670B] duration-500 rounded-3xl'>
-          <div className='bg-[#03243B] max-w-[26rem] px-10 pt-12 pb-8 m-2.5 rounded-xl min-h-[920px] flex flex-col'>
-            <h3 className='font-Arvo font-bold text-5xl uppercase mb-10'>Business</h3>
-            <img src={divider} className='w-[67%] h-1 mx-auto mb-16' alt="" />
-            <p className='text-center text-3xl mb-8'>Trade Businesses, Content Creators, Paid Mentors, Trade Brands/Sponsors.</p>
-            <ul className='text-2xl text-left pl-8' style={{listStyle: "circle"}}>
+          <div className='bg-[#03243B] max-w-[26rem] px-10 pt-12 pb-8 m-2.5 rounded-xl min-h-[780px] flex flex-col'>
+            <h3 className="font-Arvo relative font-bold text-4xl uppercase mb-10 text-left after:content-[''] after:w-full after:h-0.5 after:bg-white after:absolute after:-bottom-6 after:left-0">Business</h3>
+            {/* <img src={divider} className='w-[67%] h-1 mx-auto mb-16' alt="" /> */}
+            <p className='text-left text-2xl mb-8 mt-5'>Trade Businesses, Content Creators, Paid Mentors, Trade Brands/Sponsors.</p>
+            <ul className='text-xl text-left pl-8' style={{listStyle: "circle"}}>
               <li>My Dashboard</li>
               <li>Profile</li>
               <li>Messages</li>
@@ -401,18 +401,18 @@ const data = [
               <li>Affiliate</li>
               <li>Control Panel (Manage your user's features)</li>
             </ul>
-            <a href="#" className='text-2xl mt-auto text-[#03243B] px-8 py-5 bg-white hover:bg-[#F6670B] hover:text-white duration-300 rounded-2xl'>Create Account</a>
+            <a href="#" className='text-2xl mt-auto text-[#03243B] px-5 py-4 bg-white hover:bg-[#F6670B] hover:text-white duration-300 rounded-2xl'>Create Account</a>
           </div>
         </div>
         <div className='hover:bg-[#F6670B] duration-500 rounded-3xl'>
-          <div className='bg-[#03243B] max-w-[26rem] px-10 pt-12 pb-8 m-2.5 rounded-xl min-h-[920px] flex flex-col'>
-            <h3 className='font-Arvo font-bold text-5xl uppercase mb-10 '>NON-FOR-PROFIT</h3>
-            <img src={divider} className='w-[67%] h-1 mx-auto mb-16' alt="" />
-            <p className='text-center text-3xl mb-8'>Job Service Organizations, Industry Associations, Apprenticeship Organizations.</p>
-            <ul className='text-2xl text-left pl-8' style={{listStyle: "circle"}}>
+          <div className='bg-[#03243B] max-w-[26rem] px-10 pt-12 pb-8 m-2.5 rounded-xl min-h-[780px] flex flex-col'>
+            <h3 className="relative font-Arvo font-bold text-4xl uppercase mb-10 text-left after:content-[''] after:w-full after:h-0.5 after:bg-white after:absolute after:-bottom-6 after:left-0">NON-FOR-PROFIT</h3>
+            {/* <img src={divider} className='w-[67%] h-1 mx-auto mb-16' alt="" /> */}
+            <p className='text-left text-2xl mb-8 mt-5'>Job Service Organizations, Industry Associations, Apprenticeship Organizations.</p>
+            <ul className='text-xl text-left pl-8' style={{listStyle: "circle"}}>
               <li>Contact us to build better industries.</li>
             </ul>
-            <a href="#" className='text-2xl mt-auto text-[#03243B] px-8 py-5 bg-white hover:bg-[#F6670B] hover:text-white duration-300 rounded-2xl'>Create Account</a>
+            <a href="#" className='text-2xl mt-auto text-[#03243B] px-5 py-4 bg-white hover:bg-[#F6670B] hover:text-white duration-300 rounded-2xl'>Create Account</a>
           </div>
         </div>
       </div>

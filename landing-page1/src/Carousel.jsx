@@ -154,7 +154,7 @@ const navImgsRE =[
         // FUll body of carousel 
         <div className="bg-[#032D46] py-24 text-white px-56 relative">
             <div className="mx-32  overflow-hidden">
-                <div className='flex transition-all duration-300 ease-out' style={{transform: `translateX(-${curr *100}%)`}}>
+                <div className='flex gap-48 transition-all duration-300 ease-out' style={{transform: `translateX(-${(curr * (1196 + 192))}px)`}}>
                     {images[0]}
                 </div> 
             {/* Right and left icons */}
@@ -198,7 +198,7 @@ const navImgsRE =[
                     {navImgsRE.map((img, i) => (
                         <div
                             key={i}
-                            className={`duration-200 ease-linear p-2 flex items-center justify-center rounded-full ${
+                            className={`duration-200 ease-linear p-2 flex items-center justify-center rounded-full cursor-pointer ${
                                 i === curr ? "bg-[#F6670B]" : "bg-transparent"
                             }
                             
